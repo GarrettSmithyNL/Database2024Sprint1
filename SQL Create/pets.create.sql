@@ -9,3 +9,4 @@ CREATE TABLE pets (
 	CONSTRAINT fk_customer_id FOREIGN KEY (customer_id)
 	REFERENCES customer (customer_id)
 );
+

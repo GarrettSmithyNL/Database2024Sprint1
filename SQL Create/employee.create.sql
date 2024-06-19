@@ -9,5 +9,5 @@ CREATE TABLE employee (
   email varchar(255) NOT NULL,
   PRIMARY KEY (employee_id),
   FOREIGN KEY (address_id) REFERENCES address(address_id),
-  FOREIGN KEY (vehicle_id) REFERENCES vehicles(vehicle_id)
+  FOREIGN KEY (vehicle_id) REFERENCES company_vehicle(vehicle_id)
 );

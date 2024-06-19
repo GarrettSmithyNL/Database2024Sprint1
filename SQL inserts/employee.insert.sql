@@ -1,0 +1,5 @@
+insert into employee (employee_id, address_id, vehicle_id, job_title, first_name, last_name, phone_number, email) values (1, 8, 2, 'Field Technician', 'Lelah', 'Wroe', '384-600-9551', 'lwroe0@jugem.jp');
+insert into employee (employee_id, address_id, vehicle_id, job_title, first_name, last_name, phone_number, email) values (2, 12, 4, 'Field Technician', 'Codie', 'Gable', '910-649-8511', 'cgable1@chron.com');
+insert into employee (employee_id, address_id, vehicle_id, job_title, first_name, last_name, phone_number, email) values (3, 2, 2, 'Field Technician', 'Hyacinth', 'Twelve', '767-892-3731', 'htwelve2@scribd.com');
+insert into employee (employee_id, address_id, vehicle_id, job_title, first_name, last_name, phone_number, email) values (4, 16, 3, 'Accounts', 'Davon', 'Juara', '351-978-6356', 'djuara3@imdb.com');
+insert into employee (employee_id, address_id, vehicle_id, job_title, first_name, last_name, phone_number, email) values (5, 13, 1, 'Owner', 'Melinda', 'Fiennes', '468-208-0110', 'mfiennes4@123-reg.co.uk');

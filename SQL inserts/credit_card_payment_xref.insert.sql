@@ -1,0 +1,15 @@
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (6, 1);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (8, 3);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (7, 4);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (7, 5);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (4, 7);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (2, 8);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (6, 9);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (3, 10);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (5, 12);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (7, 13);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (7, 15);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (6, 18);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (2, 19);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (8, 20);
+insert into credit_card_payment_xref (credit_card_id, payment_id) values (2, 23);

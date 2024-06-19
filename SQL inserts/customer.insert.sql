@@ -1,0 +1,10 @@
+insert into customer (customer_id, address_id, first_name, last_name, phone_number, email) values (1, 11, 'Galvan', 'Lunck', '949-155-6826', 'glunck0@wikia.com');
+insert into customer (customer_id, address_id, first_name, last_name, phone_number, email) values (2, 7, 'Langsdon', 'Cosens', '789-769-3305', 'lcosens1@nature.com');
+insert into customer (customer_id, address_id, first_name, last_name, phone_number, email) values (3, 2, 'Gale', 'Thornton', '709-799-2114', 'gthornton2@abc.net.au');
+insert into customer (customer_id, address_id, first_name, last_name, phone_number, email) values (4, 5, 'Alden', 'McMurty', '831-972-7545', 'amcmurty3@soundcloud.com');
+insert into customer (customer_id, address_id, first_name, last_name, phone_number, email) values (5, 6, 'Noelyn', 'Mithon', '116-536-3860', 'nmithon4@live.com');
+insert into customer (customer_id, address_id, first_name, last_name, phone_number, email) values (6, 1, 'Erick', 'Lanfer', '967-693-7360', 'elanfer5@altervista.org');
+insert into customer (customer_id, address_id, first_name, last_name, phone_number, email) values (7, 6, 'Rosella', 'Leaver', '200-616-2040', 'rleaver6@businessinsider.com');
+insert into customer (customer_id, address_id, first_name, last_name, phone_number, email) values (8, 8, 'Lewie', 'Stuther', '857-540-0295', 'lstuther7@spiegel.de');
+insert into customer (customer_id, address_id, first_name, last_name, phone_number, email) values (9, 4, 'Emmott', 'Bulstrode', '710-274-4879', 'ebulstrode8@phpbb.com');
+insert into customer (customer_id, address_id, first_name, last_name, phone_number, email) values (10, 4, 'Matt', 'Tuff', '767-872-1581', 'mtuff9@ucla.edu');

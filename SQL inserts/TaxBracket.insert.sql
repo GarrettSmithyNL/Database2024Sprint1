@@ -1,0 +1,13 @@
+INSERT INTO tax bracket (tax_bracket_id, tax_bracket_name) VALUES (1, '0%');
+INSERT INTO tax bracket (tax_bracket_id, tax_bracket_name) VALUES (2, '5%');
+INSERT INTO tax bracket (tax_bracket_id, tax_bracket_name) VALUES (3, '10%');
+INSERT INTO tax bracket (tax_bracket_id, tax_bracket_name) VALUES (4, '15%');
+INSERT INTO tax bracket (tax_bracket_id, tax_bracket_name) VALUES (5, '20%');
+INSERT INTO tax bracket (tax_bracket_id, tax_bracket_name) VALUES (6, '25%');
+INSERT INTO tax bracket (tax_bracket_id, tax_bracket_name) VALUES (7, '30%');
+INSERT INTO tax bracket (tax_bracket_id, tax_bracket_name) VALUES (8, '35%');
+INSERT INTO tax bracket (tax_bracket_id, tax_bracket_name) VALUES (9, '40%');
+INSERT INTO tax bracket (tax_bracket_id, tax_bracket_name) VALUES (10, '45%');
+INSERT INTO tax bracket (tax_bracket_id, tax_bracket_name) VALUES (11, '50%');
+INSERT INTO tax bracket (tax_bracket_id, tax_bracket_name) VALUES (12, '55%');
+INSERT INTO tax bracket (tax_bracket_id, tax_bracket_name) VALUES (13, '60%');

@@ -4,9 +4,9 @@
 
 SELECT invoice.invoice_date
   ,invoices.invoice_number 
-  ,SUM(payments.amount)  -- Sum of payments for each invoice
+  ,SUM(payments.amount) AS total_amount_paid -- Total amount paid for the invoice
   ,invoices.total_amount -- Total amount of the invoice
-  ,invoices.total_amount - SUM(payments.amount) AS total_amount_paid -- Remaining amount to pay
+  ,invoices.total_amount - SUM(payments.amount) AS remaining_amount_to_be_paid -- Remaining amount to pay
 FROM invoices
 JOIN payments
   ON invoices.invoice_number = payments.invoice_number

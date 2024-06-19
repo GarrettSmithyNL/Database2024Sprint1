@@ -12,5 +12,4 @@ JOIN payroll -- Join the payroll table to get the pay rate
   ON employees.employee_id = payroll.employee_id
 JOIN tax_brackets -- Join the tax_brackets table to get the tax percent
   ON payroll.tax_bracket_id = tax_brackets.tax_bracket_id
-GROUP BY employees.employee_id
 ORDER BY employees.employee_id ASC;

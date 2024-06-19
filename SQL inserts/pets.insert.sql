@@ -1,0 +1,14 @@
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (1, 3, 2, 'Athéna');
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (2, 5, 5, 'Cloé');
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (3, 6, 1, 'Ophélie');
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (4, 6, 3, 'Angèle');
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (5, 5, 4, 'Noémie');
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (6, 6, 3, 'Josée');
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (7, 1, 8, 'Maï');
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (8, 1, 2, 'Estée');
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (9, 6, 1, 'Ophélie');
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (10, 5, 9, 'Clémentine');
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (11, 3, 3, 'Kévina');
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (12, 2, 1, 'Dà');
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (13, 4, 1, 'Océanne');
+insert into pets (pet_id, pet_type_id, customer_id, pet_name) values (14, 3, 8, 'Yóu');

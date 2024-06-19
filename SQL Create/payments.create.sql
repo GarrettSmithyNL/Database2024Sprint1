@@ -1,4 +1,4 @@
-CREATE TABLE Payments (
+CREATE TABLE payments (
     payment_id SERIAL PRIMARY KEY,
     payment_method_id INT NOT NULL,
     invoice_id INT NOT NULL,

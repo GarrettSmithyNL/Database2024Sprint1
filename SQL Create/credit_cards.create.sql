@@ -1,4 +1,4 @@
-CREATE TABLE Credit_Cards (
+CREATE TABLE credit_cards (
     credit_card_id SERIAL PRIMARY KEY,
     address_id INT NOT NULL,
     credit_card_number VARCHAR(255) NOT NULL,

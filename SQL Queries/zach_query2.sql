@@ -1,18 +1,18 @@
--- This query joins the tables 'Invoice', 'Invoice_X_Services', and 'Services_Offered' 
+-- This query joins the tables 'invoice', 'services_invoice_xref', and 'Services_Offered' 
 -- to find the total cost of services for each invoice.
 -- The result includes the invoice date, invoice ID, and the total cost of services.
 
 SELECT 
-    Invoice.invoice_date,
-    Invoice.invoice_id,
-    SUM(Invoice_X_Services.service_price) AS total_services_cost
+    invoice.invoice_date,
+    invoice.invoice_id,
+    SUM(services_invoice_xref.service_price) AS total_services_cost
 FROM 
-    Invoice
+    invoice
 JOIN 
-    Invoice_X_Services ON Invoice.invoice_id = Invoice_X_Services.invoice_id
+    services_invoice_xref ON invoice.invoice_id = services_invoice_xref.invoice_id
 JOIN 
-    Services_Offered ON Invoice_X_Services.service_id = Services_Offered.service_id
+    Services_Offered ON services_invoice_xref.service_id = Services_Offered.service_id
 GROUP BY 
-    Invoice.invoice_id
+    invoice.invoice_id
 ORDER BY 
-    Invoice.invoice_date DESC;
+    invoice.invoice_date DESC;
